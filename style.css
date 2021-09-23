@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #70AEE0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.red-color {
+    color: red !important;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem;
+}
+
+.vertically-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------- */
+/* HEADER SECTION */
+
+.header {
+    margin: 0 2rem;
+}
+
+.header .logo-container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0rem;
+}
+
+.header .logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header .screening {
+    font-size: 2.4rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+.header .subtext {
+    color: #555555;
+    font-size: 2rem;
+}
+
+.header .rsvp {
+    color: #ffffff;
+    text-transform: none;
+    font-size: 30px;
+    padding: 7px 0px;
+    padding-bottom: 10px;
+}
+
+.header h3 a {
+    color: inherit;
+}
+
+/* --------------------------------------------------------------- */
+
+.info .structure {
+    margin-top: 2rem;
+    border: 3px #ffffff solid;
+}
+
+.info .structure h1 {
+    font-size: 55px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.info .structure .full-width-line {
+    height: 3px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: none;
+}
+
+.info .structure #main-setting-container {
+    border: none;
+    margin: 2rem 0rem;
+}
+
+.info .structure .breaker {
+    height: 3px;
+    color: #E5E5E5;
+    background-color: #E5E5E5;
+    border: none;
+    margin: 2rem 0rem;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info .structure .setting-container {
+    border: none;
+}
+
+.info .structure .setting-container h3 {
+    padding: 2px;
+}
+
+.info .structure .setting-container .date {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.info .structure .setting-container .location-building {
+    color: #E5E5E5;
+    font-size: 1.5rem;
+}
+
+.info .structure .setting-container .location-town {
+    color: #E5E5E5;
+    font-size: 1.5rem;
+}
+
+/* --------------------------------------------------------------- */
+/* responsive */
+
+@media (max-width: 575.98px) { 
+    
+    .header h2,h3 {
+        line-height: 1;
+    }
+
+    .header .subtext {
+        font-size: 1.53rem;
+        padding: 0.3rem 0rem;
+    }
+
+    .header .rsvp {
+        margin-top: 1.3rem;
+    }
+}
